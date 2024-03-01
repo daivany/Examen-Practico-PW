@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: plum;
+    
+  }
+  
+  header {
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo img {
+    max-width: 100px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .producto {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .producto img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .producto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .producto p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .precio {
+    font-weight: bold;
+    color: #333;
+  }
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .redes-sociales a:hover {
+    text-decoration: underline;
+  }
+  
